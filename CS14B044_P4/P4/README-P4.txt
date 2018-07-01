@@ -1,0 +1,3 @@
+- Parallelized the function remove_incident_edges
+- Tried to parallelize the function do_color but was getting memory corruption error
+- Couldnt parallelize other functions as they were mostly serial or werent giving any speedups on parallelisation
